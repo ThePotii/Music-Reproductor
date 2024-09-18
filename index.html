@@ -13,6 +13,8 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <link rel="stylesheet" href="/style.css">
+
     <meta name="description" content="Viaja a través de tus melodías favoritas y transforma tu hogar en un santuario musical. ¡Descubre la música para cada estado de ánimo y déjate llevar por el ritmo de la vida!">
 
     <meta name="keywords" content="Música sin anuncios, Reproductor de música con carátulas, Música para relajarse, Música para estudiar, Reproductor de música con radio, Reproductor de música con podcast, Música para hacer ejercicio, Reproductor de música con sincronización, Reproductor de música con control por voz, Música para fiestas, Reproductor de música con efectos de sonido, Música para meditar, Reproductor de música con integración social, Música para niños, Reproductor de música con recomendaciones, Música de fondo, Reproductor de música con temporizador, Música para concentrarse, Reproductor de música con soporte de múltiples formatos, Música para viajar, Reproductor de música con interfaz intuitiva, Música para dormir, Reproductor de música con compatibilidad con dispositivos, Música para eventos, Reproductor de música con opción de compartir, Música para el hogar, Reproductor de música con actualizaciones regulares, Música para cada estado de ánimo">
@@ -104,7 +106,15 @@
                     <img src="" alt="">
                 </div>
                 <button>Comprar ahora</button>
+                
             </div>
+            <form action="https://api.institutoalfa.org/api/songs?query=:query">
+
+            <input type="text" name="query" id="">
+
+            <button type="submit">Buscar</button>
+            
+            </form>
 
         </section>
 
