@@ -1,7 +1,22 @@
+:root {
+    --margin-page: 60px;
+    --color-primary: #1E1E1E ;
+    --color-action: #EE0703 ;
+    --color-star: #FA6901 ;
+    --color-letters: #F2F2F2 ;
+    --color-lettersone: #FEFCFD ;
+}
+
+@font-face {
+    font-family: text;
+    src: url(/Roboto-Bold.ttf);
+}
+
 * {
     padding: unset;
     margin: unset;
     border: unset;
+    outline: unset;
     text-decoration: none;
     font-size: 1rem;
     font-weight: 400;
@@ -14,8 +29,49 @@ body {
     color: #1E1E1E;
 }
 
-header nav {
+.menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px var(--margin-page);
+    background-color: #1E1E1E;
 }
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.menu li {
+    color: #F2F2F2;
+}
+
+.menu button {
+    color: #F2F2F2;
+}
+
+.jumbotron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: 
+        linear-gradient(0deg, #1e1e1ea4, rgba(202, 202, 202, 0.137)),
+        url('/jumbotron.jpg')
+    ;
+    background-size: cover;
+    background-position: center;
+    height: 560px;
+}
+
+.jumbotron h1 {
+    font-family: text;
+    font-size: 58px;
+    color: #F2F2F2;
+    padding: 10px var(--margin-page);
+}
+
+.jumbotron img {
+    width: 30%;
+    padding: 10px var(--margin-page);
+}
+
