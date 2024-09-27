@@ -172,3 +172,59 @@ body {
 .buttoncard:hover {
     background-color: #fc3a36;
 }
+
+.jumbotron-dos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: 
+        url("/jumbotron-dos.jpg"),
+        linear-gradient(0deg, #1e1e1ea4, rgba(202, 202, 202, 0.137))
+        ;
+    background-size: cover;
+    background-position: center;
+    height: 560px;
+}
+
+.jumbotron-dos h3 {
+    font-family: text;
+    font-size: 58px;
+    color: #F2F2F2;
+    padding: 10px var(--margin-page);
+}
+
+.jumbotron-dos > div {
+    background-color: #1e1e1e80;
+    padding: 10px var(--margin-page);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+.jumbotron-dos form {
+    background-color: #F2F2F2;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    width: max-content;
+    margin: 0 auto;
+    overflow: hidden;
+    align-items: center;
+}
+
+.jumbotron-dos button {
+    font-family: text;
+    color:#1E1E1E;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.jumbotron-dos form input {
+    background-color: transparent;
+    color: #1E1E1E;
+    font-family: text;
+}

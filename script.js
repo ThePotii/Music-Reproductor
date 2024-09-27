@@ -1,11 +1,9 @@
-let persona = {
-    name: 'Rodrigo',
-    lastname: 'Suarez',
-    age: 5,
-    hair: '#000',
-    address: {
-        city: 'Miami',
-        country: 'USA',
-        street: 'develop street'
-    }
+let mifuncion = (title, author) => {
+    // alert(title + ' - ' + author)
+    
+    // backticks
+    alert(`${title} - ${author}`)
 }
+
+mifuncion('Llamada de emergencia', 'Daddy Yankee')
+mifuncion('Dote', 'Dejavu')
