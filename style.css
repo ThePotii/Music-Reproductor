@@ -228,3 +228,70 @@ body {
     color: #1E1E1E;
     font-family: text;
 }
+
+.thepotify {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px var(--margin-page);
+}
+
+.thepotify img {
+    display: flex-start;
+    align-items: flex-start;
+    height: 54px;
+    border-radius: 10px;
+}
+
+.thepotify h4 {
+    font-family: text;
+    font-size: 32px;
+    color: #F2F2F2;
+    padding: 25px;
+}
+
+.uno {
+    font-family: text;
+    font-size: 16px;
+    color: #F2F2F2;
+    text-align: flex-start;
+    padding: 25px var(--margin-page);
+    text-align: flex-start;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px var(--margin-page);
+}
+
+.dos {
+    font-family: text;
+    font-size: 16px;
+    color: #F2F2F2;
+    text-align: flex-end;
+    display: flex;
+}
+
+.followme {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px var(--margin-page);
+    gap: 60px;
+}
+
+.tres {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #F2F2F2;
+    display: flex;
+}
+
+.copyright {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #F2F2F2;
+}
