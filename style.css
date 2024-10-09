@@ -48,6 +48,7 @@ body {
     justify-content: space-between;
     gap: 32px;
     transition: background .3s ease-in-out;
+    font-family: text;
 }
 
 .menu li {
@@ -66,6 +67,8 @@ body {
     border-radius: 10px;
     padding: 10px;
     transition: background .3s ease-in-out;
+    font-weight: bold;
+    font-family: text;
 }
 
 .menu button:hover {
@@ -261,7 +264,8 @@ body {
 
 .socialmedia {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    gap: 10px;
     align-items: center;
     padding: 10px var(--margin-page);
 }
